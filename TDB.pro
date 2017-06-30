@@ -23,17 +23,17 @@ DEFINES += TDB_LIBRARY
 
 SOURCES += \
     $$PWD/src/tdb.cpp \
-    src/structs.cpp \
-    src/sqlworker.cpp \
-    src/resultasync.cpp
+    $$PWD/src/structs.cpp \
+    $$PWD/src/sqlworker.cpp \
+    $$PWD/src/resultasync.cpp
 
 HEADERS += \
     $$PWD/src/tdb.h \
     $$PWD/src/tdb_global.h \
     $$PWD/src/TDB \
-    src/structs.h \
-    src/sqlworker.h \
-    src/resultasync.h
+    $$PWD/src/structs.h \
+    $$PWD/src/sqlworker.h \
+    $$PWD/src/resultasync.h
 
 
 DESTDIR = $$PWD/build/lib
